@@ -264,6 +264,8 @@ button{
     .footer {
     position: relative;
     top: 1900px;
+    left: 50px;
+    width: 100%;
     }
 }
   @media only screen and (min-width: 1280px) {
@@ -314,29 +316,35 @@ button{
     .row .col1 {
      position: relative;
      bottom: 50px;
+     left: 50px;
     }
     .row .col2{
         position: relative;
      bottom: 50px;
+     left: 50px;
     }
     .row .col3{
         position: relative;
      bottom: 50px;
+     left: 50px;
     }
     .row .col4{
         position: relative;
      bottom: 50px;
+     left: 50px;
     }
     .row .col5{
         position: relative;
      bottom: 50px;
+     left: 50px;
     }
     .row .col6{
         position: relative;
      bottom: 50px;
+     left: 50px;
     }
     body {
-      background-size: 5700px;
+      background-size: 6700px;
     }
     .m1{
       
@@ -350,9 +358,10 @@ button{
     }
     .m1 .a1{
         position: relative;
-       left: 500px;
+       left: 550px;
        display: inline-block;
-       font-size: 12px;
+       font-size: 10px;
+       text-align: center;
     }
     .m1 p{
        
