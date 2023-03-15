@@ -14,7 +14,7 @@ body{
   margin-bottom: 70px;
 
 }
-#para1{
+.para1{
     border: 3px solid ;
     box-sizing: border-box;
     width: 600px;
@@ -26,7 +26,7 @@ body{
     top: 180px;
     left: 490px;
 }
-#para1:hover{
+.para1:hover{
     color: white;
 }
 .a1{
@@ -41,7 +41,7 @@ body{
     background-color: black;
     font-weight: bold;
 }
-#ak{
+.ak{
     font-size: 24px;
     font-weight: 700;
     position: absolute;
@@ -180,7 +180,7 @@ button{
     padding: 10px;
 }
 
-#para1{
+.para1{
     text-align: center;
     font-size: 80px;
     color: black;
@@ -263,7 +263,7 @@ button{
   @media only screen and (max-width: 600px) {
     .footer {
     position: relative;
-    top: 1300px;
+    top: 1900px;
     }
 }
   @media only screen and (min-width: 1280px) {
@@ -313,32 +313,48 @@ button{
   @media only screen and (max-width: 600px) {
     .row .col1 {
      position: relative;
-     bottom: 600px;
+     bottom: 50px;
     }
     .row .col2{
         position: relative;
-     bottom: 600px;
+     bottom: 50px;
     }
     .row .col3{
         position: relative;
-     bottom: 600px;
+     bottom: 50px;
     }
     .row .col4{
         position: relative;
-     bottom: 600px;
+     bottom: 50px;
     }
     .row .col5{
         position: relative;
-     bottom: 600px;
+     bottom: 50px;
     }
     .row .col6{
         position: relative;
-     bottom: 600px;
+     bottom: 50px;
     }
     body {
       background-size: 5700px;
     }
-    #a1{
-       font-size: 20px;
+    .m1{
+      
+       position: relative;
+       right: 530px;
+
+    }
+    .m1 .para1{
+        box-sizing: border-box;
+        width: 580px;
+    }
+    .m1 .a1{
+        position: relative;
+       left: 500px;
+       display: inline-flex;
+       font-size: 12px;
+    }
+    .m1 p{
+       
     }
 }
